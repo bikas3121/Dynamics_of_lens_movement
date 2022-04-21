@@ -134,8 +134,8 @@ for i = 1:length(u)
 end
 figure
 plot(t, P)
-% hold on
-% plot(t, P_av)
+hold on
+plot(t, P_av);
 xlabel('Time (s)')
 ylabel('Power')
 grid minor
